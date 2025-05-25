@@ -12,7 +12,7 @@ run('npm install', 'Installing dependencies');
 
 // Init Tauri with default config
 if (!fs.existsSync('src-tauri')) {
-  run(`npx tauri init --ci`, 'Initializing Tauri');
+  run(`npx tauri init`, 'Initializing Tauri');
 }
 
 console.log('\n✅ Project initialized!');
